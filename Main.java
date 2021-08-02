@@ -10,17 +10,15 @@ class Main {
 
   public static void manchesterCode(String code)
   { char c;
+
     for( int i = 0; i < code.length(); i++ )
-    {
-      c = code.charAt(i);
-      //System.out.println(c);
-      if(c=='1')
-        System.out.print("10");
+    { c = code.charAt( i );
+      if( c == '1' )
+        System.out.print( "10" );
       else
-        System.out.print("01");
+        System.out.print( "01" );
     }
     
     System.out.println();
-    // Just testing my version control.
   }
 }
