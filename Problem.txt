@@ -1,0 +1,8 @@
+In Telecommunication and data storage, Manchester code is a line code in which the encoding of each data bit is either low then high, or high then low, for equal time. This type of coding was used for storing data on the magnetic drums of the Manchester Mark 1 computer.
+
+This coding can be represented by the following:
+  Given an input 1010, each 0 becomes 01, each 1 becomes 10
+  E.g: 1010 becomes 10 | 01 | 10 | 01 for the output of 10011001.
+
+
+Write a program that takes an input of data and returns data in Manchester Encoding format.
